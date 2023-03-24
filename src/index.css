@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.data-list {
+
+  max-height: 350px; /* set the maximum height of the list */
+  overflow-y: auto; /* enable vertical scrollbar when the list overflows */
+  list-style: none; /* remove the bullet points */
+  padding: 0; /* remove any default padding */
+  margin: 0; /* remove any default margin */
+
+}
+
+.image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.name li{
+  margin: 10px 0;
+  font-size: 1rem;
+  list-style: none;
+
+}
+
+.name li span{
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+}
+
+.company {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-left: 100px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+.map {
+  border-radius: 10px;
+}
+
